@@ -6,7 +6,7 @@ export default function Navigate() {
 
   return (
     <div>
-  <header className="bg-green-600 text-white p-4">
+      <header className="bg-green-600 text-white p-4">
         <div className="container mx-auto flex flex-wrap justify-between items-center">
           <h1 className="text-2xl md:text-3xl font-serif italic">
             Green Leaf Guides
@@ -39,18 +39,17 @@ export default function Navigate() {
           <a href="/gardenTips" className="py-2 md:py-0 hover:underline">
             Gardening Tips
           </a>
-          <a href="#" className="py-2 md:py-0 hover:underline">
+          <a href="guides" className="py-2 md:py-0 hover:underline">
             Plant Guides
           </a>
-          <a href="#" className="py-2 md:py-0 hover:underline">
+          <a href="/tools" className="py-2 md:py-0 hover:underline">
             Tools & Supplies
           </a>
-          <a href="#" className="py-2 md:py-0 hover:underline">
+          <a href="community" className="py-2 md:py-0 hover:underline">
             Community Forum
           </a>
-
         </div>
       </nav>
-      </div>
-    );
+    </div>
+  );
 }
